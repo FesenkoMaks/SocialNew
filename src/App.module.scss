@@ -1,0 +1,15 @@
+@import "./style/variable";
+
+.content {
+  background-color: $color-background;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}

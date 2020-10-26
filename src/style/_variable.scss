@@ -1,0 +1,27 @@
+//colors
+$color-accent: #3e89c7;
+$color-dark: #043D6C;
+$color-background: #F2F2F2;
+$color-white: #ffffff;
+$color-text-light: #3EA4F4;
+$color-title: #4099e3;
+
+//fonts
+%poppins-bold {
+  font-family: 'Poppins', sans-serif;
+}
+%open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+%container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+%border-radius {
+  border-radius: 5px;
+  border: 1px solid darken($color-background, 5%);
+  padding: 10px;
+}

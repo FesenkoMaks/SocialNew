@@ -1,0 +1,30 @@
+@import "../../style/variable";
+
+.content{
+  position: relative;
+  .icon {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: $color-accent;
+  }
+  .input {
+    height: 30px;
+    background-color: $color-dark;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    padding: 0 30px;
+    color: $color-accent;
+    &::placeholder {
+      color: $color-accent;;
+    }
+    &:focus{
+      background-color: #fff;
+      color: black;
+    }
+    &:focus > .icon {
+      color: black;
+    }
+  }
+}

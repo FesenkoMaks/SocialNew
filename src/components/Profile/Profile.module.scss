@@ -1,0 +1,32 @@
+@import "../../style/variable";
+
+.profileContent {
+  width: 85%;
+  display: flex;
+  .profileInnerLeft{
+    width: 42%;
+    display: flex;
+    flex-wrap: wrap;
+    .profileAvatar{
+      text-align: center;
+      @extend %border-radius;
+      width: 100%;
+      background-color: $color-white;
+      margin: 0 10px 10px 0;
+    }
+    .profileDownloadPhotos{
+      @extend %border-radius;
+      width: 100%;
+      background-color: $color-white;
+      margin: 0 10px 10px 0;
+    }
+  }
+  .profileInnerRight {
+    width: 100%;
+    margin: 0 10px 10px 0;
+    .profileInfo {
+      @extend %border-radius;
+      background-color: $color-white;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../../style/variable";
+
+.navItem {
+  width: 100%;
+  padding: 5px 15px;
+  transition: .1s linear;
+  a {
+    text-decoration: none;
+    color: $color-accent;
+  }
+  &:hover {
+    background-color: darken($color-background, 10%);
+  }
+  .navIcon {
+    padding-right: 10px;
+  }
+}
