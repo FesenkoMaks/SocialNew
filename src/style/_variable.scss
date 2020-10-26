@@ -1,6 +1,7 @@
 //colors
 $color-accent: #3e89c7;
 $color-dark: #043D6C;
+$color-skyey: #c5cee6;
 $color-background: #F2F2F2;
 $color-white: #ffffff;
 $color-text-light: #3EA4F4;
@@ -23,5 +24,6 @@ $color-title: #4099e3;
 %border-radius {
   border-radius: 5px;
   border: 1px solid darken($color-background, 5%);
+  background-color: $color-white;
   padding: 10px;
 }
