@@ -2,7 +2,7 @@ import React, {ButtonHTMLAttributes, DetailedHTMLProps} from "react";
 import style from "./Button.module.scss"
 
 type ButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>
-    &{ color: 'primary' | 'secondary', labelButton: string , buttonIcon?: any}
+    & { color: 'primary' | 'secondary', labelButton: string , buttonIcon?: any}
 
 const Button = ({color, labelButton, buttonIcon, ...props}: ButtonPropsType) => {
     return (
